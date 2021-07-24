@@ -10,6 +10,18 @@
   "assets": {
   },
   "color_schemes": {
+    "Chic Zebra": {
+      "primary": "000000",
+      "secondary": "ffffff",
+      "tertiary": "000000",
+      "quaternary": "8be9fd",
+      "header_background": "000000",
+      "header_primary": "ffffff",
+      "highlight": "f1fa8c",
+      "danger": "ff5555",
+      "success": "fcc31e",
+      "love": "ff79c6"
+    }
   },
   "modifiers": {
   },
