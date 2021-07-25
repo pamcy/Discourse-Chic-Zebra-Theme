@@ -1,0 +1,25 @@
+// Index: Latest
+.topic-list {
+  border-collapse: separate;
+  border-spacing: 0 rem(25);
+
+  &-item {
+    td {
+      border-top: 2px solid var(--tertiary);
+      border-bottom: 2px solid var(--tertiary);
+
+      &::before,
+      &::after {
+        display: none;
+      }
+
+      &:first-of-type {
+        border-left: 2px solid black;
+      }
+
+      &:last-of-type {
+        border-right: 2px solid black;
+      }
+    }
+  }
+}
