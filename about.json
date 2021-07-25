@@ -8,6 +8,8 @@
   "minimum_discourse_version": null,
   "maximum_discourse_version": null,
   "assets": {
+    "quote_left": "assets/quote-left-solid.svg",
+    "quote_right": "assets/quote-right-solid.svg"
   },
   "color_schemes": {
     "Chic Zebra": {
@@ -23,7 +25,6 @@
       "love": "ff79c6"
     }
   },
-  "modifiers": {
-  },
+  "modifiers": {},
   "learn_more": "https://meta.discourse.org/t/beginners-guide-to-using-discourse-themes/91966"
 }
