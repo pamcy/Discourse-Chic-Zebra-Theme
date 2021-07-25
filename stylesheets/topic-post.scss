@@ -1,0 +1,103 @@
+.topic-body .cooked,
+.d-editor-preview {
+  font-size: var(--font-up-1);
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-top: 1.8em;
+    margin-bottom: rem(16);
+  }
+
+  p,
+  ol,
+  ul,
+  pre,
+  dl {
+    margin: 1.25em 0;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    & + p {
+      margin-top: 0;
+    }
+  }
+
+  h1 {
+    font-size: var(--font-up-7);
+  }
+
+  h2 {
+    font-size: var(--font-up-5);
+  }
+
+  h3 {
+    font-size: var(--font-up-4);
+  }
+
+  h4 {
+    font-size: var(--font-up-3);
+  }
+
+  h5 {
+    font-size: var(--font-up-2);
+  }
+
+  blockquote {
+    padding: rem(24);
+    border-color: var(--highlight);
+    border-radius: rem(4);
+
+    &::before,
+    &::after {
+      content: "";
+      display: block;
+      width: rem(30);
+      height: rem(30);
+      background-size: rem(30);
+      background-repeat: no-repeat;
+    }
+
+    &::before {
+      margin-bottom: rem(16);
+      background-image: url($quote_left);
+    }
+
+    &::after {
+      margin-top: rem(16);
+      margin-left: auto;
+      background-image: url($quote_right);
+    }
+
+    p {
+      padding: 0 rem(16);
+    }
+  }
+}
+
+.topic-post {
+  margin-bottom: rem(24);
+  padding: rem(24);
+  background: #f5f5f5;
+
+  .topic-avatar {
+    padding: 0;
+    border: 0;
+  }
+
+  .topic-body {
+    // width: calc(var(--topic-body-width) + var(--topic-body-width-padding) / 2);
+    padding-top: rem(10);
+    border: 0;
+  }
+}
+
+
